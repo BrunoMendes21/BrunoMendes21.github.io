@@ -14,8 +14,12 @@ body {
 
     flex: 1;
     background-color: rgb(255, 255, 255);
-    dispaly;
-    flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.foto img{
+
+    
 }
