@@ -70,3 +70,10 @@ body {
     color:#2c4200;
 background-color:#8ACE00;
 }
+
+footer{
+    background-color:rgb(224, 224, 224) ;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
