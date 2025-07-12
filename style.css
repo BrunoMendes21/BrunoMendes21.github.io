@@ -53,3 +53,9 @@ body {
     gap: 1.4rem;
     margin-top:1.4rem;
 }
+.social a{ 
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color:rgb(224, 224, 224);
+}
