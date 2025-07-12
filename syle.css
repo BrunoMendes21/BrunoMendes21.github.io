@@ -1,16 +1,21 @@
 body {
-    background-color:rgb(187, 187, 187);
+    background-color: rgb(187, 187, 187);
     margin: 0;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif
 }
-.início{
+
+.início {
     display: flex;
     height: 100vh;
-    
+
 }
 
-.foto{
+.foto {
 
-flex:1;
-background-color: rgb(255, 255, 255);
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    dispaly;
+    flex;
+    align-items: center;
+    justify-content: center;
 }
