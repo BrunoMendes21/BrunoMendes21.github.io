@@ -132,5 +132,13 @@ footer p{
   font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
   margin-bottom: 12px; /* Adiciona uma margem de 12 pixels abaixo de cada item */
   padding-left: 20px; /* Adiciona um preenchimento esquerdo para o texto (para dar espaço ao check) */
-  position: relative; /* Define a posição relativa para que o pseudo-elemento "::before" possa ser posicionado dentro dele 
+  position: relative; /* Define a posição relativa para que o pseudo-elemento "::before" possa ser posicionado dentro dele */
+}
+
+/* Estilos para o marcador de check (✔) antes de cada item de habilidade */
+.habilidades li::before {
+  content: "✔"; /* Insere o caractere de check (✔) antes do texto */
+  position: absolute; /* Posiciona o check de forma absoluta em relação ao seu pai (.habilidades li) */
+  left: 0; /* Alinha o check na borda esquerda do item */
+  color: black; /* Define a cor do check como preto */
 }
