@@ -31,7 +31,14 @@ body {
     justify-content: center;
 }
 
-.infos{
+.infos h1{
     font-size: 48px;
     margin: 0;
+}
+
+.infos h2{
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+
 }
