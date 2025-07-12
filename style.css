@@ -65,3 +65,8 @@ body {
     text-align: center;
 
 }
+
+.social a:hover{
+    color:rgb(0, 0, 0);
+background-color:chartreuse;
+}
